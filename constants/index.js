@@ -34,25 +34,25 @@ const navLinks = [
 
 const services = [
   {
-    title: "Software Developer",
+    title: "Software Engineering",
     icon: <FullStackIcon />,
   },
   {
-    title: "Frontend Developer",
+    title: "Product Management",
     icon: <FrontendIcon />,
   },
   // {
   //   title: "Backend Developer",
   //   icon: <BackendIcon />,
   // },
-  {
-    title: "Problem Solving",
-    icon: <ProblemSolvingIcon />,
-  },
-  {
-    title: "Freelancer",
-    icon: <FreelancerIcon />,
-  },
+  // {
+  //   title: "C",
+  //   icon: <ProblemSolvingIcon />,
+  // },
+  // {
+  //   title: "Freelancer",
+  //   icon: <FreelancerIcon />,
+  // },
   // {
   //   title: "Leadership",
   //   icon: <LeaderShipIcon />,
@@ -62,14 +62,9 @@ const services = [
 const technologies = {
   languages: [
     {
-      name: "HTML5",
-      icon: "/assets/tech/html5.svg",
-      link: "https://html.spec.whatwg.org/multipage/",
-    },
-    {
-      name: "CSS3",
-      icon: "/assets/tech/css3.svg",
-      link: "https://www.w3.org/Style/CSS/Overview.en.html",
+      name: "Python",
+      icon: "/assets/tech/python.svg",
+      link: "https://www.python.org/",
     },
     {
       name: "JavaScript",
@@ -82,7 +77,17 @@ const technologies = {
       link: "https://www.typescriptlang.org/",
     },
     {
-      name: "C",
+      name: "HTML",
+      icon: "/assets/tech/html5.svg",
+      link: "https://html.spec.whatwg.org/multipage/",
+    },
+    {
+      name: "CSS",
+      icon: "/assets/tech/css3.svg",
+      link: "https://www.w3.org/Style/CSS/Overview.en.html",
+    },
+    {
+      name: "C/C++/C#",
       icon: "/assets/tech/c.svg",
       link: "https://en.cppreference.com/w/c",
     },
@@ -92,10 +97,11 @@ const technologies = {
       link: "https://www.java.com/en/",
     },
     {
-      name: "Python",
-      icon: "/assets/tech/python.svg",
-      link: "https://www.python.org/",
+      name: "Ruby",
+      icon: "/assets/tech/ruby.svg",
+      link: "https://www.ruby-lang.org/en/",
     },
+
   ],
   frameworks: [
     {
@@ -109,14 +115,14 @@ const technologies = {
       link: "https://tailwindcss.com/",
     },
     {
-      name: "Express.js",
-      icon: "/assets/tech/expressjs.png",
-      link: "https://expressjs.com/",
+      name: "React.js",
+      icon: "/assets/tech/react.js.png",
+      link: "https://reactjs.org/",
     },
     {
-      name: "Flutter",
-      icon: "/assets/tech/flutter.svg",
-      link: "https://flutter.dev/",
+      name: "Angular",
+      icon: "/assets/tech/angular.png",
+      link: "https://angular.io/",
     },
   ],
   libraries: [
@@ -125,41 +131,41 @@ const technologies = {
       icon: "/assets/tech/react.svg",
       link: "https://react.dev/",
     },
-    {
-      name: "Three.js",
-      icon: "/assets/tech/threejs.svg",
-      link: "https://threejs.org/",
-    },
+    // {
+    //   name: "Three.js",
+    //   icon: "/assets/tech/threejs.svg",
+    //   link: "https://threejs.org/",
+    // },
     {
       name: "Styled-Components",
       icon: "/assets/tech/styled-components.png",
       link: "https://styled-components.com/",
     },
     {
-      name: "Framer-motion",
-      icon: "/assets/tech/framer.svg",
-      link: "https://www.framer.com/motion/",
+      name: "Pandas",
+      icon: "/assets/tech/pandas1.png",
+      link: "https://pandas.pydata.org/",
     },
+    // {
+    //   name: "Zustand",
+    //   icon: "https://user-images.githubusercontent.com/958486/218346783-72be5ae3-b953-4dd7-b239-788a882fdad6.svg",
+    //   link: "https://zustand-demo.pmnd.rs",
+    // },
+    // {
+    //   name: "Redux/Redux-toolkit",
+    //   icon: "https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo.png",
+    //   link: "https://redux.js.org",
+    // },
     {
-      name: "Zustand",
-      icon: "https://user-images.githubusercontent.com/958486/218346783-72be5ae3-b953-4dd7-b239-788a882fdad6.svg",
-      link: "https://zustand-demo.pmnd.rs",
+      name: "Mongoose",
+      icon: "/assets/tech/mongoose1.png",
+      link: "https://mongoosejs.com/",
     },
-    {
-      name: "Redux/Redux-toolkit",
-      icon: "https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo.png",
-      link: "https://redux.js.org",
-    },
-    {
-      name: "NextAuth.js",
-      icon: "/assets/tech/nextauthjs.png",
-      link: "https://next-auth.js.org/",
-    },
-    {
-      name: "Prisma",
-      icon: "/assets/tech/prisma.svg",
-      link: "https://www.prisma.io/",
-    },
+    // {
+    //   name: "Prisma",
+    //   icon: "/assets/tech/prisma.svg",
+    //   link: "https://www.prisma.io/",
+    // },
   ],
   tools: [
     {
@@ -172,11 +178,11 @@ const technologies = {
       icon: "/assets/icons/github.svg",
       link: "https://github.com/",
     },
-    {
-      name: "Postman",
-      icon: "/assets/tech/postman.svg",
-      link: "https://www.postman.com/",
-    },
+    // {
+    //   name: "Postman",
+    //   icon: "/assets/tech/postman.svg",
+    //   link: "https://www.postman.com/",
+    // },
     {
       name: "Figma",
       icon: "/assets/tech/figma.svg",
@@ -194,6 +200,26 @@ const technologies = {
       icon: "/assets/tech/nodejs.svg",
       link: "https://nodejs.org/en",
     },
+    {
+      name: "Microsoft Azure",
+      icon: "/assets/tech/Azure.png",
+      link: "https://azure.microsoft.com/en-us/",
+    },
+    {
+      name: "Google Cloud",
+      icon: "/assets/tech/google_cloud.webp",
+      link: "https://cloud.google.com/",
+    },
+    {
+      name: "AWS",
+      icon: "/assets/tech/aws2.png",
+      link: "https://aws.amazon.com/",
+    },
+    {
+      name: "Google Kubernetes Engine",
+      icon: "/assets/tech/gke1.png",
+      link: "https://cloud.google.com/kubernetes-engine",
+    },
   ],
   databases: [
     {
@@ -201,11 +227,11 @@ const technologies = {
       icon: "/assets/tech/my-sql.png",
       link: "https://www.mysql.com/",
     },
-    {
-      name: "PostgreSQL",
-      icon: "/assets/tech/postgresql.png",
-      link: "https://www.postgresql.org",
-    },
+    // {
+    //   name: "PostgreSQL",
+    //   icon: "/assets/tech/postgresql.png",
+    //   link: "https://www.postgresql.org",
+    // },
     {
       name: "MongoDB",
       icon: "/assets/tech/mongodb.svg",
@@ -275,124 +301,127 @@ const experiences = [
 ];
 
 const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
+  // {
+  //   testimonial:
+  //     "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+  //   name: "Sara Lee",
+  //   designation: "CFO",
+  //   company: "Acme Co",
+  //   image: "https://randomuser.me/api/portraits/women/4.jpg",
+  // },
+  // {
+  //   testimonial:
+  //     "I've never met a web developer who truly cares about their clients' success like Rick does.",
+  //   name: "Chris Brown",
+  //   designation: "COO",
+  //   company: "DEF Corp",
+  //   image: "https://randomuser.me/api/portraits/men/5.jpg",
+  // },
+  // {
+  //   testimonial:
+  //     "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+  //   name: "Lisa Wang",
+  //   designation: "CTO",
+  //   company: "456 Enterprises",
+  //   image: "https://randomuser.me/api/portraits/women/6.jpg",
+  // },
 ];
 
 const projects = [
   {
-    name: "QuickEdit: AI-Powered Image & Video Editor",
+    name: "GKE-PubSub-AutoScaler",
     description:
-      "QuickEdit is an AI-powered online image and video editor built using the Cloudinary AI API. It offers robust features for both images and videos, with user-friendly authentication and a tiered credit system. Enhance your media editing experience with cutting-edge AI tools!",
+      "GKE-PubSub-AutoScaler is a Kubernetes-based solution that automatically scales Google Kubernetes Engine (GKE) clusters based on Pub/Sub message load. It leverages Google Cloud's serverless capabilities to optimize resource usage and reduce costs.",
     tags: [
       {
-        name: "typescript",
+        name: "Google Cloud",
         color: "blue-text-gradient",
       },
       {
-        name: "next.js",
+        name: "Google Kubernetes Engine",
         color: "green-text-gradient",
       },
       {
-        name: "tailwindcss",
-        color: "pink-text-gradient",
+        name: "Angular",
+        color: "red-text-gradient",
       },
       {
-        name: "shadcn",
+        name: "PubSub",
         color: "orange-text-gradient",
       },
       {
-        name: "cloudinary",
+        name: "Terraform",
         color: "yellow-text-gradient",
       },
     ],
-    image:
-      "https://res.cloudinary.com/dqiqi75hm/image/upload/v1734187202/quickedit/dp6y8s8dstqfpq7svmj5.png",
+    image: "/assets/projects/Terraflow.png",
     source_code_link: "https://github.com/Shivam-Sharma-1/QuickEdit",
     deployed_link: "https://quick-edit-app.vercel.app",
   },
   {
-    name: "FigPro",
+    name: "EcoPrint",
     description:
-      "FigPro is a web-based collaborative design tool similar to Figma, built using Next.js, TypeScript, Tailwind CSS, and LiveBlocks API, Fabric.js. With FigPro, teams can seamlessly collaborate on designing interfaces in real-time with a plethora of features.",
+      "EcoPrint is a decentralized carbon tracking platform with 100% auditability via Pinata IPFS integration and Autonomys AI-driven scoring.",
     tags: [
       {
-        name: "typescript",
+        name: "docker",
         color: "blue-text-gradient",
       },
       {
-        name: "next.js",
+        name: "node.js",
         color: "green-text-gradient",
       },
       {
-        name: "tailwindcss",
+        name: "HTML",
         color: "pink-text-gradient",
       },
       {
-        name: "fabricjs",
+        name: "react.js",
         color: "orange-text-gradient",
       },
       {
-        name: "liveblocks",
+        name: "javascript",
         color: "yellow-text-gradient",
       },
     ],
-    image: "/assets/projects/fig-pro.png",
-    source_code_link: "https://github.com/Shivam-Sharma-1/FigPro",
-    deployed_link: "https://fig-pro-github.vercel.app",
+    image: "/assets/projects/gke.png",
+    source_code_link: "https://github.com/Shivam-Sharma-1/EcoPrint",
+    deployed_link: "https://eco-print-github.vercel.app",
   },
-  // {
-  //   name: "GDSC Website",
-  //   description:
-  //     "Welcome to the official repository for the GDSC MVJCE Website, built with Next.js, Styled Components, and Prisma! This website serves as the central hub for all things tech-related at GDSC MVJCE. From insightful blog posts to incredible community projects, and from exciting tech events to getting to know our team, you'll find it all here.",
-  //   tags: [
-  //     {
-  //       name: "next.js",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "styled-components",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "three.js",
-  //       color: "pink-text-gradient",
-  //     },
-  //     {
-  //       name: "prisma",
-  //       color: "orange-text-gradient",
-  //     },
-  //     {
-  //       name: "framer-motion",
-  //       color: "yellow-text-gradient",
-  //     },
-  //   ],
-  //   image: "/assets/projects/gdsc-website.png",
-  //   source_code_link: "https://github.com/GDSC-MVJCE/gdscmvjce-website.git",
-  //   deployed_link: "https://gdscmvjce.vercel.app/",
-  // },
+  {
+    name: "Verifisure",
+    description:
+      "Verifisure is an AI agent attestation system utilizing OCR/NLP, Gaia Ai Nodes, and Othentic stack, and Boundless zkVM sdk integration, achieving 94%+ data extraction accuracy and reducing fraud resolution time by 85%.",
+    tags: [
+      {
+        name: "python",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "docker",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "react.js",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "solidity",
+        color: "green-text-gradient",
+      },
+      {
+        name: "rust",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: "/assets/projects/Verifisure.png",
+    source_code_link: "https://github.com/GDSC-MVJCE/gdscmvjce-website.git",
+    deployed_link: "https://gdscmvjce.vercel.app/",
+  },
   {
     name: "Facility Management System",
     description:
