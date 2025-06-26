@@ -251,58 +251,58 @@ const technologies = {
 };
 
 const experiences = [
-  // {
-  //   title: "Full Stack Developer",
-  //   company_name: "Tech Lead at GDSC MVJCE",
-  //   icon: "/assets/company/gdsc-logo.svg",
-  //   iconBg: "#E6DEDD",
-  //   date: "July 2023 - Present",
-  //   points: [
-  //     "Currently serving as the Tech Lead of GDSC, responsible for guiding technical aspects, fostering collaboration, and contributing to strategic decisions.",
-  //     "Led induction programs, ensured new member alignment with GDSC's mission, and provided technical mentorship.",
-  //     "Developed GDSC MVJCE website, enhancing the organization's online visibility.",
-  //     "Spearheaded promotional campaigns, actively engaged with the GDSC community, and played a key role in planning and executing events.",
-  //   ],
-  // },
   {
-    title: "Frontend Developer Intern",
-    company_name: "Intern at Curowell Healthcare Private Ltd",
-    icon: "/assets/company/curowell-logo.svg",
+    title: "Software Engineering Intern",
+    company_name: "I2S",
     iconBg: "#E6DEDD",
-    date: "November 2023",
+    date: "May 2025 - Present",
     points: [
-      "Developing a healthcare SaaS platform using Next.js, TypeScript, and Tailwind CSS, significantly enhancing user experience.",
-      "Maintaining an efficient codebase under senior guidance, ensuring adherence to best practices in software development.",
-      "Contributing to the DND form microfrontend, improving user interaction by 30%.",
-      "Collaborating in UI/UX design efforts, leading to a 25% reduction in component development time.",
+      "Developing full-body haptic feedback algorithms by designing custom vibrotactile encoding schemes in Unity and microcontroller platforms.",
+      "Aiming to boost real-time boundary detection accuracy in Meta Quest VR from 65% to over 90% through signal optimization and embedded tuning.",
     ],
   },
   {
-    title: "Full Stack Developer Intern",
-    company_name: "Intern at DRDO CABS",
-    icon: "/assets/company/drdo-cabs.png",
+    title: "Venture Capital Intern",
+    company_name: "Royal Street Ventures (UVF)",
     iconBg: "#E6DEDD",
-    date: "November 2023",
+    date: "May 2025 - Present",
     points: [
-      "Developed a Facility Bookings Manager for DRDO CABS using TypeScript, React, Node.js, Express, Prisma, and MySQL within a month.",
-      "Actively addressed client issues and queries, ensuring seamless integration with their platform and local cluster system.",
-      "Led the design and implementation of the frontend, providing a user-friendly interface for efficient facility management.",
-      "Collaborated with a backend intern throughout the internship to deliver a comprehensive solution tailored to DRDO CABS's needs.",
+      "Conducting due diligence on startups by analyzing markets, building financial models, and interviewing founders.",
+      "Co-authoring investment memos with analysts and GPs to influence $25K+ in capital allocation decisions.",
     ],
   },
-  // {
-  //   title: "Frontend Developer",
-  //   company_name: "Tech team member at GDSC MVJCE",
-  //   icon: "/assets/company/gdsc-logo.svg",
-  //   iconBg: "#E6DEDD",
-  //   date: "February 2022 - July 2023",
-  //   points: [
-  //     "Successfully planned and executed induction programs, providing new members with crucial information about the organization's goals and values.",
-  //     "Demonstrated web development expertise by conducting CSS workshops, equipping participants with practical web design and styling skills.",
-  //     "Played a crucial role in promoting GDSC events and actively collaborated with cross-functional teams to deliver high-quality projects, fostering teamwork and innovation.",
-  //     "Actively engaged with the GDSC community, assisted in workshops, and contributed to planning and managing GDSC events, ensuring their success and growth.",
-  //   ],
-  // },
+  {
+    title: "Telemetry Researcher",
+    company_name: "KubeSat",
+    iconBg: "#E6DEDD",
+    date: "December 2024 - June 2025",
+    points: [
+      "Led a 4-member team under Prof. John Paden to build AI models that classify CubeSat telemetry anomalies and improve fault detection.",
+      "Designed and proposed an ML model to classify anomalies from sensor drift, radiation, and transmission issues with 75% anomaly detection success.",
+      "Project selected to present at the International Telemetry Conference 2025",
+      "Research paper published in the International Telemetering Conference (ITC) Proceedings",
+    ],
+  },
+   {
+     title: "Programming Synthesis Researcher",
+     company_name: "MMIMC",
+     iconBg: "#E6DEDD",
+     date: "November 2024 - Present",
+     points: [
+       "Researched program synthesis in the I2S Lab under Prof. Sankha Guria, extending RubySyn with static analysis and interpreter verification.",
+       "Ran user study to evaluate practical impact of enhancements.",
+       "Research proposal was honored with the KU Undergraduate Engineering Research Award.",
+     ],
+   },
+   {
+     title: "XRP Builder Residency",
+     company_name: "Ripple",
+     date: "October 2024 - November 2024",
+     points: [
+       "Engaged in collaborative workshops with other fellows to work with creating dApps on the XRP ledger.",
+       "Developed an XRPL-based carbon credit dApp enabling EPA-aligned tokenization. Tested with 200+ users with automized exchanges and cut reporting overhead by 40%.",
+     ],
+   },
 ];
 
 const testimonials = [
