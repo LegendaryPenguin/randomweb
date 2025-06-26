@@ -254,6 +254,7 @@ const experiences = [
   {
     title: "Software Engineering Intern",
     company_name: "I2S",
+    icon: "/assets/tech/bg.png",
     iconBg: "#E6DEDD",
     date: "May 2025 - Present",
     points: [
@@ -264,6 +265,7 @@ const experiences = [
   {
     title: "Venture Capital Intern",
     company_name: "Royal Street Ventures (UVF)",
+    icon: "/assets/tech/bg.png",
     iconBg: "#E6DEDD",
     date: "May 2025 - Present",
     points: [
@@ -274,6 +276,7 @@ const experiences = [
   {
     title: "Telemetry Researcher",
     company_name: "KubeSat",
+    icon: "/assets/tech/bg.png",
     iconBg: "#E6DEDD",
     date: "December 2024 - June 2025",
     points: [
@@ -286,6 +289,7 @@ const experiences = [
    {
      title: "Programming Synthesis Researcher",
      company_name: "MMIMC",
+     icon: "/assets/tech/bg.png",
      iconBg: "#E6DEDD",
      date: "November 2024 - Present",
      points: [
@@ -297,10 +301,24 @@ const experiences = [
    {
      title: "XRP Builder Residency",
      company_name: "Ripple",
+     icon: "/assets/tech/bg.png",
+     iconBg: "#E6DEDD",
      date: "October 2024 - November 2024",
      points: [
        "Engaged in collaborative workshops with other fellows to work with creating dApps on the XRP ledger.",
        "Developed an XRPL-based carbon credit dApp enabling EPA-aligned tokenization. Tested with 200+ users with automized exchanges and cut reporting overhead by 40%.",
+     ],
+   },
+   {
+     title: "Data Operations Intern",
+     company_name: "Voices of Variety",
+     icon: "/assets/tech/bg.png",
+     iconBg: "#E6DEDD",
+     date: "October 2024 - November 2024",
+     points: [
+       "Structured and organized grant information with logical filtering, streamlining management review processes.",
+       "Developed an XRPL-based carbon credit dApp enabling EPA-aligned tokenization. Tested with 200+ users with automized exchanges and cut reporting overhead by 40%.",
+       "Collaborated with cross-functional teams to align grant initiatives with organizational goals, increasing funding success rates."
      ],
    },
 ];
@@ -348,7 +366,7 @@ const projects = [
       },
       {
         name: "Angular",
-        color: "red-text-gradient",
+        color: "pink-text-gradient",
       },
       {
         name: "PubSub",
@@ -357,6 +375,10 @@ const projects = [
       {
         name: "Terraform",
         color: "yellow-text-gradient",
+      },
+      {
+        name: "Firebase",
+        color: "blue-text-gradient",
       },
     ],
     image: "/assets/projects/gke.png",
