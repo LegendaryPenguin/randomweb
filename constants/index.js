@@ -77,6 +77,11 @@ const technologies = {
       link: "https://www.typescriptlang.org/",
     },
     {
+      name: "Solidity",
+      icon: "/assets/tech/Solidity.png",
+      link: "https://soliditylang.org/",
+    },
+    {
       name: "HTML",
       icon: "/assets/tech/html5.svg",
       link: "https://html.spec.whatwg.org/multipage/",
@@ -354,9 +359,8 @@ const projects = [
         color: "yellow-text-gradient",
       },
     ],
-    image: "/assets/projects/Terraflow.png",
-    source_code_link: "https://github.com/Shivam-Sharma-1/QuickEdit",
-    deployed_link: "https://quick-edit-app.vercel.app",
+    image: "/assets/projects/gke.png",
+    source_code_link: "https://github.com/LegendaryPenguin/gke-pubsub-autoscaler",
   },
   {
     name: "EcoPrint",
@@ -384,9 +388,8 @@ const projects = [
         color: "yellow-text-gradient",
       },
     ],
-    image: "/assets/projects/gke.png",
-    source_code_link: "https://github.com/Shivam-Sharma-1/EcoPrint",
-    deployed_link: "https://eco-print-github.vercel.app",
+    image: "/assets/projects/Ecoprint.png",
+    source_code_link: "https://github.com/LegendaryPenguin/EcoPrint",
   },
   {
     name: "Verifisure",
@@ -419,148 +422,181 @@ const projects = [
       },
     ],
     image: "/assets/projects/Verifisure.png",
-    source_code_link: "https://github.com/GDSC-MVJCE/gdscmvjce-website.git",
-    deployed_link: "https://gdscmvjce.vercel.app/",
+    source_code_link: "https://github.com/micahborg/verisure",
   },
   {
-    name: "Facility Management System",
+    name: "Ecoxchange",
     description:
-      "The Facility Management System is a comprehensive management solution developed using the MERN (MongoDB, Express.js, React, Node.js) stack. It allows users to book time slots in facilities and provides role-based access control for various functionalities.",
+      "Ecoxchange is an XRPL-based carbon credit dApp enabling EPA-aligned tokenization; tested with 200+ users and cut reporting overhead by 40%.",
     tags: [
       {
         name: "typescript",
         color: "blue-text-gradient",
       },
       {
-        name: "react",
+        name: "xrp.js",
         color: "green-text-gradient",
       },
       {
-        name: "tailwindcss",
+        name: "HTML",
         color: "pink-text-gradient",
       },
       {
-        name: "node.js",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "tanstack/react-query",
+        name: "javascript",
         color: "yellow-text-gradient",
       },
+      {
+        name: "testnet",
+        color: "orange-text-gradient",
+      },
     ],
-    image: "/assets/projects/facility-manager.png",
+    image: "/assets/projects/Eco.png",
     source_code_link:
-      "https://github.com/Shivam-Sharma-1/Facility-Management-System",
-    deployed_link:
-      "https://github.com/Shivam-Sharma-1/Facility-Management-System?tab=readme-ov-file#demo",
+      "https://github.com/LegendaryPenguin/ecoXchange",
+      },
+  {
+    name: "Terraflow",
+    description:
+      "Terraflow is a decentralized AgriTech investment platform using Solidity smart contracts deployed on the Flow blockchain for high-throughput transactions and Privy embedded wallet SDK for seamless Web2-style user authentication into Web3 dApp frontend.",
+    tags: [
+      {
+        name: "privy sdk",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "solidity",
+        color: "green-text-gradient",
+      },
+    {
+        name: "javascript",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "cadence",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "flow",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: "/assets/projects/Terraflow1.png",
+    source_code_link: "https://github.com/SuhaanSyed/TerraFlow",
   },
-  // {
-  //   name: "Netflix Clone",
-  //   description:
-  //     "Netflix-Clone is a fully responsive web application that replicates the popular streaming platform Netflix. It is built using Next.js, Prisma, React, NextAuth.js, Tailwind CSS, MongoDB and TypeScript. This project aims to showcase the implementation of these technologies to create a feature-rich clone of Netflix.",
-  //   tags: [
-  //     {
-  //       name: "next.js",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "typescript",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "tailwindcss",
-  //       color: "pink-text-gradient",
-  //     },
-  //     {
-  //       name: "mongodb",
-  //       color: "orange-text-gradient",
-  //     },
-  //   ],
-  //   image: "/assets/projects/netflix-clone.png",
-  //   source_code_link: "https://github.com/Shivam-Sharma-1/Netflix-Clone.git",
-  //   deployed_link: "https://netflix-clone12345.vercel.app",
-  // },
-  // {
-  //   name: "Van-Life",
-  //   description:
-  //     "VanLife is a user-friendly website built with React that simplifies van searches. It is a web app used to browse different types of vans. It allows users to log in and offers convenient tag-based filtering for easy browsing.",
-  //   tags: [
-  //     {
-  //       name: "react",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "mirage.js",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "firebase-firestore",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: "/assets/projects/vanlife.png",
-  //   source_code_link: "https://github.com/Shivam-Sharma-1/Van-Life.git",
-  //   deployed_link: "https://myvanlife.netlify.app",
-  // },
-  // {
-  // 	name: "Spooky-Run",
-  // 	description:
-  // 		"Spooky Run is a web based 2D arcade style game that allows players to play as a lost dog finding its way back home through a spooky forest. The game is built using vanilla JavaScript and utilizes HTML5 and the 'canvas' element to render graphics and handle user input.",
-  // 	tags: [
-  // 		{
-  // 			name: "html5",
-  // 			color: "blue-text-gradient"
-  // 		},
-  // 		{
-  // 			name: "css3",
-  // 			color: "green-text-gradient"
-  // 		},
-  // 		{
-  // 			name: "javascript",
-  // 			color: "pink-text-gradient"
-  // 		}
-  // 	],
-  // 	image: "/assets/projects/spooky-run.png",
-  // 	source_code_link: "https://github.com/Shivam-Sharma-1/Spooky-Run.git",
-  // 	deployed_link: "https://shivam-sharma-1.github.io/Spooky-Run"
-  // }
+  {
+    name: "MindMentor",
+    description:
+      "MindMentor is a personalized ai study tool that utilizes AWS generative ai to create personalized learning pathways and review material.",
+    tags: [
+      {
+        name: "python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "HTML",
+        color: "green-text-gradient",
+      },
+      {
+        name: "aws bedrock",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: "/assets/projects/Mindmentor1.png",
+    source_code_link: "https://github.com/saikiransomanagoudar/mind-mentor",
+  },
+  {
+  	name: "FTC Robotics",
+  	description:
+  		"Built a competition-ready robot for FTC using Java (FTC SDK), custom hardware, and CAD-designed components to navigate autonomous and teleoperated tasks. Integrated sensors, odometry pods, and vision processing for precise movement, while iterating on mechanical subsystems.",
+  	tags: [
+  		{
+  			name: "Fusion 360",
+  			color: "blue-text-gradient"
+  		},
+  		{
+  			name: "AutoCAD",
+  			color: "green-text-gradient"
+  		},
+  		{
+  			name: "CNC Router",
+  			color: "pink-text-gradient"
+  		},
+      {
+  			name: "OpenCV",
+  			color: "yellow-text-gradient"
+  		},
+      {
+        name: "Odometry",
+        color: "orange-text-gradient",
+      },
+  	],
+  	image: "/assets/projects/Kinetic.png",
+  	source_code_link: "https://docs.google.com/presentation/d/1_hiKsqJGxliIiqsrENMSlsCZOT2SIqjreWs61F-ye4Q/present?slide=id.g28470fa1830_0_48",
+  },
+  {
+  	name: "Vertical Cross Tension Car",
+  	description:
+  		"This car was built using Fusion 360 and AutoCAD to model the car with vertical cross sections to maximize tension withstanded from the rubber band power mechanism while retaining light weight to maximize speed. The car incorporates as 3D printed frame for lightweight durability, and laser cut axles and hubs for smooth operation. This car won 2nd place at the KU Engineering Design Competition in the Mechanical Engineering section.",
+  	tags: [
+  		{
+  			name: "Fusion 360",
+  			color: "blue-text-gradient"
+  		},
+  		{
+  			name: "AutoCAD",
+  			color: "green-text-gradient"
+  		},
+  		{
+  			name: "Ultimaker Cura",
+  			color: "pink-text-gradient"
+  		},
+      {
+  			name: "Laser Cutting",
+  			color: "yellow-text-gradient"
+  		}
+  	],
+  	image: "/assets/projects/Car.png",
+  	source_code_link: "https://engr.ku.edu/hsd-2023-winners",
+  }
 ];
 
 const socials = [
   {
     id: "github",
     icon: <GithubIcon />,
-    link: "https://github.com/Shivam-Sharma-1",
+    link: "https://github.com/LegendaryPenguin",
   },
   {
     id: "linkedin",
     icon: <LinkedInIcon />,
-    link: "https://www.linkedin.com/in/shivamsharma77607",
+    link: "https://www.linkedin.com/in/nischay-rawal",
   },
   {
     id: "x",
     icon: <XIcon />,
-    link: "https://twitter.com/Shivam_1_Sharma",
+    link: "https://twitter.com/nisch_rawal",
   },
   {
     id: "instagram",
     icon: <InstagramIcon />,
-    link: "https://www.instagram.com/_.shivam._.here._",
+    link: "https://www.instagram.com/nischay__rawal/",
   },
 ];
 
 const heroTexts = [
-  "React/Next.js developer",
+  "Software Engineer",
   500,
-  "Freelancer",
+  "Blockchain/Web3 Engineer",
   500,
-  "Full-Stack developer",
+  "Cloud Engineer",
   500,
-  "Frontend developer",
+  "Product Management",
   500,
-  "Backend developer",
-  500,
-  "Problem solver",
+  "Frontend Engineer",
   500,
 ];
 
