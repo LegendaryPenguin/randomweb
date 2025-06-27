@@ -73,7 +73,7 @@ function Navbar() {
 								Nischay Rawal &nbsp;
 								<span className="lg:block hidden">
 									{" "}
-									| Software Engineering
+									| Portfolio
 								</span>
 							</p>
 						</Link>

@@ -23,7 +23,7 @@ export default function App({ Component, pageProps }) {
 		}
 	}, [loading]);
 
-	const title = "Portfolio | Nischay Rawal";
+	const title = "Nischay Rawal | Portfolio";
 	const description =
 		"Hello! I'm Nischay Rawal, a passionate web developer and problem solver. Welcome to my portfolio";
 	// const avatar =

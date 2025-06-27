@@ -28,14 +28,19 @@ function About() {
         className="mt-4 dark:text-ctnSecondaryDark text-gray-300 text-[17px] w-full leading-[30px] flex flex-col justify-between gap-6"
       >
         <div>
-          Hello! I&apos;m Nischay Rawal, a passionate web developer and problem
-          solver. Currently, I&apos;m  pursuing a dual B.S. degrees in Computer Science and Mathematics at
-          The University of Kansas in Lawrence, Kansas. I&apos;m a software developer with experience
-          in Python, Javascript, Typescript, SQL and other languages. I specialize in frameworks
-          such as React, Node.js, Next.js, Angular, and more. 
-          <br className="sm:block hidden" />
-          Let&apos;s collaborate to bring your ideas to life!
-        </div>
+        <strong>Top 1% Global Chess Player</strong>
+        <br className="sm:block hidden" />
+        <strong>Top 1% Math Competitor</strong>
+        <br className="sm:block hidden" />
+        <strong>National-Level Competitor in Engineering, Business, and Speech</strong>
+        <br className="sm:block hidden" />
+        I’m <strong>Nischay Rawal</strong>, a dual Computer Science and Mathematics major at the University of Kansas, driven by curiosity, competition, and the desire to build meaningful things.
+        <br className="sm:block hidden" />
+        I strive to bridge disciplines and combine skills from engineering, communication, and strategy to create solutions that are thoughtful, practical, and high-impact.
+        <br className="sm:block hidden" />
+        Whether I’m coding, presenting, or collaborating, I’m always working to learn fast, raise the bar, and translate ideas into reality.
+      </div>
+
         <div className="w-fit break-words">
           <Link
             href="mailto:nisch.rawal@gmail.com"
