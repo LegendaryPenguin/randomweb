@@ -133,13 +133,23 @@ const awardsData = [
   },
   {
     placement: "Featured",
-    event: "College DAO Blog",
-    detail: "March Feature",
-    link: "https://collegedao.org/blog/march-feature",
+    event: "Agents Got Talent",
+    detail: "Episode 2",
+    link: "https://www.youtube.com/live/ZKOfH6ojueY?si=8zZfaF1cUpB1EW2t",
     prize: null,
     year: 2025,
     category: "Recognition",
     level: "National",
+  },
+  {
+    placement: "Featured",
+    event: "KU 12s Research News Headlines",
+    detail: "",
+    link: "https://i2s-research.ku.edu/news/article/KUBI-ETHDenver-2025",
+    prize: null,
+    year: 2025,
+    category: "Recognition",
+    level: "State",
   },
   // Business Awards
   {
