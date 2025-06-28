@@ -126,7 +126,7 @@ const technologies = {
     },
     {
       name: "Angular",
-      icon: "/assets/tech/angular.png",
+      icon: "/assets/tech/angular2.png",
       link: "https://angular.io/",
     },
   ],
@@ -163,7 +163,7 @@ const technologies = {
     // },
     {
       name: "Mongoose",
-      icon: "/assets/tech/mongoose1.png",
+      icon: "/assets/tech/mongose.png",
       link: "https://mongoosejs.com/",
     },
     // {
@@ -222,7 +222,7 @@ const technologies = {
     },
     {
       name: "Google Kubernetes Engine",
-      icon: "/assets/tech/gke1.png",
+      icon: "/assets/tech/gke2.png",
       link: "https://cloud.google.com/kubernetes-engine",
     },
   ],

@@ -43,14 +43,14 @@ function ProjectCard({
             />
           </div>
 
-          <div className="absolute inset-0 flex justify-start m-3 card-img_hover">
+          {/* <div className="absolute inset-0 flex justify-start m-3 card-img_hover">
             <div
               onClick={() => window.open(deployed_link, "_blank")}
               className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
             >
               <RocketLogo className="w-1/2 h-1/2 mr-[2px] z-10" />
             </div>
-          </div>
+          </div> */}
           <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
             <div
               onClick={() => window.open(source_code_link, "_blank")}
@@ -107,9 +107,7 @@ function Works() {
           viewport={{ once: true, amount: 0.25 }}
         >
           These projects showcase my practical skills and experience, each with
-          descriptions and links to code repositories and live demos. They
-          demonstrate my ability to handle complex challenges, adapt to
-          different technologies, and oversee projects from start to finish.
+          descriptions and links to code repositories. They demonstrate my ability to solve complex problems, adapt across tech stacks, and lead projects from start to finish.
         </motion.p>
       </div>
 
