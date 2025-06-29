@@ -28,16 +28,12 @@ function About() {
         className="mt-4 dark:text-ctnSecondaryDark text-gray-300 text-[17px] w-full leading-[30px] flex flex-col justify-between gap-6"
       >
         <div>
-        <strong>Top 1% Global Chess Player</strong>
-        <br className="sm:block hidden" />
-        <strong>Top 1% Math Competitor</strong>
-        <br className="sm:block hidden" />
-        <strong>National-Level Competitor in Engineering, Business, and Speech</strong>
-        <br className="sm:block hidden" />
+        <strong>Top 1% Global Chess Player</strong><br />
+        <strong>Top 1% National Math Competitor</strong><br />
+        <strong>National-Level Competitor in Engineering, Business, and Speech</strong><br />
+        <br />
         I’m <strong>Nischay Rawal</strong>, a dual Computer Science and Mathematics major at the University of Kansas, driven by curiosity, competition, and the desire to build meaningful things.
-        <br className="sm:block hidden" />
         I strive to bridge disciplines and combine skills from engineering, communication, and strategy to create solutions that are thoughtful, practical, and high-impact.
-        <br className="sm:block hidden" />
         Whether I’m coding, presenting, or collaborating, I’m always working to learn fast, raise the bar, and translate ideas into reality.
       </div>
 

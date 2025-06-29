@@ -126,7 +126,7 @@ const technologies = {
     },
     {
       name: "Angular",
-      icon: "/assets/tech/angular2.png",
+      icon: "/assets/tech/Angular2.png",
       link: "https://angular.io/",
     },
   ],
@@ -163,7 +163,7 @@ const technologies = {
     // },
     {
       name: "Mongoose",
-      icon: "/assets/tech/mongose.png",
+      icon: "/assets/tech/Mongose.png",
       link: "https://mongoosejs.com/",
     },
     // {
@@ -222,7 +222,7 @@ const technologies = {
     },
     {
       name: "Google Kubernetes Engine",
-      icon: "/assets/tech/gke2.png",
+      icon: "/assets/tech/GKE1.png",
       link: "https://cloud.google.com/kubernetes-engine",
     },
   ],
@@ -258,8 +258,8 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "May 2025 - Present",
     points: [
-      "Developing full-body haptic feedback algorithms by designing custom vibrotactile encoding schemes in Unity and microcontroller platforms.",
-      "Aiming to boost real-time boundary detection accuracy in Meta Quest VR from 65% to over 90% through signal optimization and embedded tuning.",
+      "Leading a 4-member team to build AI models that classify CubeSat telemetry anomalies to improve fault detection.",
+      "Designed a ML model to classify anomalies from sensor drift, radiation, and transmission issues with 74% accuracy.",
     ],
   },
   {
@@ -314,7 +314,7 @@ const experiences = [
      company_name: "Voices of Variety",
      icon: "/assets/tech/bg.png",
      iconBg: "#E6DEDD",
-     date: "October 2024 - November 2024",
+     date: "May 2024 - August 2024",
      points: [
        "Structured and organized grant information with logical filtering, streamlining management review processes.",
        "Developed an XRPL-based carbon credit dApp enabling EPA-aligned tokenization. Tested with 200+ users with automized exchanges and cut reporting overhead by 40%.",
