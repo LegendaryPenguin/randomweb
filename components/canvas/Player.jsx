@@ -17,7 +17,7 @@ function Player({ isMobile }) {
   const group = useRef();
   const [animationsLoaded, setAnimationsLoaded] = useState(false);
 
-  const { nodes, materials, scene } = useGLTF("models/player/player.gltf");
+  const { nodes, materials, scene } = useGLTF("models/player/Nischay.gltf");
   const { animations: waveAnimation } = useFBX(
     "animations/standing-greeting.fbx"
   );
@@ -98,3 +98,36 @@ function PlayerCanvas({ isMobile }) {
 }
 
 export default PlayerCanvas;
+
+// import { Canvas } from "@react-three/fiber";
+// import { OrbitControls, useGLTF } from "@react-three/drei";
+// import { Suspense } from "react";
+
+// // Model component
+// function PlayerModel(props) {
+//   const { scene } = useGLTF("/models/player/Nischay5.glb");
+//   return <primitive object={scene} {...props} />;
+// }
+
+// // Preload for faster rendering
+// useGLTF.preload("/models/player/Nischay5.glb");
+
+// // Canvas wrapper
+// function PlayerCanvas({ isMobile }) {
+//   return (
+//     <Canvas camera={{ position: [0, 1, 5], fov: 40 }}>
+//       <ambientLight intensity={1.2} />
+//       <directionalLight position={[5, 5, 5]} intensity={1.5} />
+//       <Suspense fallback={null}>
+//         <PlayerModel
+//           position={[0, -1.5, 0]}
+//           scale={isMobile ? 2.5 : 1.8}
+//           rotation={[0, Math.PI, 0]}
+//         />
+//         <OrbitControls enableZoom={false} />
+//       </Suspense>
+//     </Canvas>
+//   );
+// }
+
+// export default PlayerCanvas;
