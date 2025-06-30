@@ -17,7 +17,7 @@ function Player({ isMobile }) {
   const group = useRef();
   const [animationsLoaded, setAnimationsLoaded] = useState(false);
 
-  const { nodes, materials, scene } = useGLTF("models/player/Nischay.gltf");
+  const { nodes, materials, scene } = useGLTF("models/player/Weird.gltf");
   const { animations: waveAnimation } = useFBX(
     "animations/standing-greeting.fbx"
   );
@@ -97,6 +97,4 @@ function PlayerCanvas({ isMobile }) {
   );
 }
 
-
 export default PlayerCanvas;
-
