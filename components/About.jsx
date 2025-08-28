@@ -61,7 +61,7 @@ function About() {
           ))}
         </div>
         <Link
-          href="document/Nischay_Rawal_Resume.pdf"
+          href="document/Nischay_Rawal_Resume_1.pdf"
           target="_blank"
           rel="noreferrer"
           className="w-fit"

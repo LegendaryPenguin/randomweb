@@ -310,15 +310,15 @@ const experiences = [
      ],
    },
    {
-     title: "Data Operations Intern",
+     title: "Software Engineering Intern",
      company_name: "Voices of Variety",
      icon: "/assets/tech/bg.png",
      iconBg: "#E6DEDD",
      date: "May 2024 - August 2024",
      points: [
-       "Structured and organized grant information with logical filtering, streamlining management review processes.",
-       "Developed an XRPL-based carbon credit dApp enabling EPA-aligned tokenization. Tested with 200+ users with automized exchanges and cut reporting overhead by 40%.",
-       "Collaborated with cross-functional teams to align grant initiatives with organizational goals, increasing funding success rates."
+       "Engineered scalable Python pipelines to ingest and normalize 200+ heterogeneous datasets, automating end-to-end data processing.",
+       "Implemented and optimized ranking algorithms to score 20+ high-value targets, \textbf{boosting system accuracy by 35\%}",
+       "Developed robust ETL scripts to transform 100+ raw inputs into structured datasets, \textbf{reducing manual processing effort by 70\%}."
      ],
    },
 ];
@@ -351,6 +351,39 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "VoiceDoc",
+    description:
+      "Voicedoc is a voice first telehealth agent with Chainlink Functions + Circle CCTP for sub-5s cross-chain Base to Avalanche settlement. Voicedoc uses Coinbase Wallet, Onramp, Escrow, Offramp, and Paymaster to cut payment failures 80% and issue instant refunds.",
+    tags: [
+      {
+        name: "Coinbase CDP",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Circle CCTP",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Chainlink Functions",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Next.js",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "TypeScript",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "Solidity",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: "/assets/projects/Voicedocpic.png",
+    source_code_link: "https://github.com/LegendaryPenguin/VoiceDoc",
+  },
   {
     name: "GKE-PubSub-AutoScaler",
     description:
